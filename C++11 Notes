@@ -1,0 +1,11 @@
+How to Build Casablanca on Ubuntu
+
+git clone https://git01.codeplex.com/casablanca casablanca
+sudo apt-get install libxml++2.6-dev
+sudo apt-get install libboost1.49-all-dev
+sudo apt-get install libssl-dev
+pushd casablanca/Release
+make all
+popd
+pushd casablanca/Binaries/Debug32
+./run_tests.sh
