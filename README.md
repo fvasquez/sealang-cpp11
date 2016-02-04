@@ -1,4 +1,4 @@
-# sealang-cpp11
+# C++11: The good, the bad, the ugly
 
 Slides and source code from a presentation on C+11 I gave at a SeaLang Meetup in Redmond on June 5, 2013.
 
